@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  font-family:'Muli', sans-serif;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 2rem;
+  line-height: 1.15;
+  color: rgba(0, 0, 0, 0.8);
+  -webkit-font-smoothing: antialiased;
+  background-color: aliceblue;
+  width: 100%;
+  overflow-x: hidden;
+}
+header {
+  background-color:bisque;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  margin: 0 auto;
+  z-index: 100;
+  align-items: center;
+  justify-content: space-between;
+}
