@@ -28,7 +28,7 @@
   content: "";
   display: block;
   width: 0%;
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(86, 33, 136);
   height: 3px;
   transition: 0.6s;
 }
@@ -36,20 +36,111 @@
   content: "";
   display: block;
   width: 100%;
-  background-color: rgb(99, 27, 255);
+  background-color: rgb(86, 33, 136);
   height: 3px;
 }
 .logo {
+  padding: 1rem;
   display: flex;
   justify-content: center;
-  font-weight: 600;
   transition: 0.3s ease;
+}
+.logo a img{
+  width: 8rem;
 }
 .logo a:hover {
   transform: scale(1.1);
-  color: rgb(86, 33, 136);
-  text-shadow: 0 0 1.5rem rgb(248, 0, 248), 0 0 3rem rgb(248, 0, 248);
 }
-span {
+.span-1 {
   color: rgb(183, 0, 255);
+}
+.span-2{
+  color: #ED5F1E;
+}
+
+.home{
+  display: flex;
+  height: fit-content;
+}
+.img-container img {
+  width: 100%;
+}
+
+.sobre{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 5rem 0;
+  align-items: center;
+  min-height: 100vh;
+}
+.img-pessoal{
+  display: flex;
+  justify-content: center;
+}
+.img-pessoal .img-container img{
+  width: 25rem;
+  border-radius: 7.5rem 3rem;
+  box-shadow: 0 0 1.5rem rgb(247, 27, 255);
+}
+.texto-pessoal{
+  width: 43rem;
+}
+.texto-pessoal h1{
+  font-size: 4rem;
+}
+.texto-pessoal h3{
+  font-size: 2rem;
+}
+.texto-pessoal p{
+  text-align: justify;
+  font-size: 1.3rem;
+  margin: 1rem 0 0;
+}
+.btn-box {
+  width: 25rem;
+  display: flex;
+  padding: 1rem 0;
+  gap: 2rem;
+}
+
+.btn-1 {
+  padding: 1rem 1.7rem;
+  background-color: white;
+  color: #ED5F1E;
+  border: 0.1rem solid transparent;
+  border-color: #ED5F1E;
+  border-radius: 0.5rem;
+  font-size: 1.1rem;
+  letter-spacing: 1px;
+  font-weight: 600;
+  transition: 0.1s ease;
+  cursor: pointer;
+}
+.btn-1:hover {
+  background-color: #ED5F1E;
+  color: white;
+  border: 0.1rem solid transparent;
+  transform: scale(1.1);
+}
+
+
+
+.btn-2 {
+  padding: 1rem 1.7rem;
+  background-color: rgb(183, 0, 255);
+  color: white;
+  border: 0.1rem solid transparent;
+  border-radius: 0.5rem;
+  font-size: 1.1rem;
+  letter-spacing: 1px;
+  font-weight: 600;
+  transition: 0.1s ease;
+  cursor: pointer;
+}
+.btn-2:hover {
+  background-color: white;
+  color: rgb(183, 0, 255);
+  border: 0.1rem solid transparent;
+  border-color: rgb(183, 0, 255);
+  transform: scale(1.1);
 }
