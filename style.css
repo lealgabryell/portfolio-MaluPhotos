@@ -123,8 +123,6 @@
   transform: scale(1.1);
 }
 
-
-
 .btn-2 {
   padding: 1rem 1.7rem;
   background-color: rgb(183, 0, 255);
@@ -144,3 +142,25 @@
   border-color: rgb(183, 0, 255);
   transform: scale(1.1);
 }
+.eventos{
+  padding: 8rem 0;
+}
+.lista-principal{
+  padding: 2rem;
+}
+
+.lista-principal li{
+  padding: 2rem 0;
+}
+
+.lista-escondida {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 1rem;
+  justify-items: center;
+}
+.lista-escondida  img{
+  width: 10rem;
+  box-shadow: 0 0 0 2px #ED5F1E, 8px 8px 0 0 #ED5F1E;
+}
+
