@@ -5,7 +5,7 @@
   margin: 0;
   text-decoration: none;
   list-style: none;
-  font-family: 'Muli', sans-serif;
+  font-family: 'Quicksand', sans-serif;
 }
 html {
   scroll-behavior: smooth;
@@ -14,7 +14,6 @@ body {
   font-weight: 500;
   font-style: normal;
   -webkit-font-smoothing: antialiased;
-  background-color: aliceblue;
   width: 100%;
   overflow-x: hidden;
 }
